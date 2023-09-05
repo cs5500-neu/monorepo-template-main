@@ -1,0 +1,3 @@
+Double check how to build catch2, they keep changing the build. Should be a header and a single .cpp now.
+
+Use std::function instead of function pointers
