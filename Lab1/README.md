@@ -1,5 +1,4 @@
 # Lab 1
-Test of Yuxuan Ren fork
 > "Getting acquainted with your ecosystem"
 
 I remember one of my first days of work at Intel. The entire day was spent getting my Integrated Development Environment (IDE) setup, installing software, installing libraries and Application Programming Interfaces(APIs), and getting acquainted with a new software ecosystem. It can be slightly overwhelming at first, but eventually you settle into your environment, and having a good environment and tools can increase your productivity later on.
