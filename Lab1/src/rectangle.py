@@ -6,6 +6,12 @@
  so a default one will be created for us.
 """
 class Rectangle:
+    # git diff will show the change
+    # git push -u origin refactor      #first push
+    def __init__(self, width, height):
+        self._width = width
+        self._height = height
+        
     def set_values(self, x, y):
         self.width = x
         self.height = y
