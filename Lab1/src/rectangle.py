@@ -13,17 +13,17 @@ class Shape:
     def area(self):
         pass
 
-class Rectangle:
+class Rectangle(Shape):
     def __init__(self, width, height):
         self._width = width
         self._height = height
     
     def set_values(self, x, y):
-        self.width = x
-        self.height = y
+        self._width = x
+        self._height = y
 
     def area(self):
-        return self.width * self.height
+        return self._width * self._height
 
 
 if __name__ == "__main__":
