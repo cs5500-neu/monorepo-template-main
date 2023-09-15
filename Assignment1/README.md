@@ -4,9 +4,9 @@
 - How many hours did it take you to complete this assignment? 5
 - Did you collaborate with any other students/TAs/Professors? No
 - Did you use any external resources? (Cite them below)
-  - tbd
-  - tbd
+  - LinkedIn Learning
 - (Optional) What was your favorite part of the assignment?
+- The advanced Python training 
 - (Optional) How would you improve the assignment?
 
 # Implementation Logistics
