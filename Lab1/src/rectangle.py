@@ -1,3 +1,4 @@
+from abc import ABC, abstractmethod
 """
  Sample modified from CS5500, Mike Shah
 
@@ -5,7 +6,15 @@
  Note that there is no constructor or destructor,
  so a default one will be created for us.
 """
+class Shape: 
+    @abstractmethod
+    def 
+
 class Rectangle:
+    def __init__(self, width, height):
+        self._width = width
+        self._height = height
+    
     def set_values(self, x, y):
         self.width = x
         self.height = y
