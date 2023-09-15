@@ -6,6 +6,7 @@ Answer and complete the following exercises.
 
 1. How you name functions and member functions matter. Take a look at the [dictionary](https://docs.python.org/3/library/stdtypes.html#typesmapping) 
 and [list](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range) member functions in the SL. 
+
 Do the names of the member functions correlate to what they do? That is, are they good 'verbs' where the name of the function describes the action the code is doing? 
   - A good example would be a function called 'pop' which only removes one element.
   - A bad example would be a function called 'pop' where one element is removed **and** that value is returned. A better name would be 'popAndGet' or 'popAndReturn', which captures the two events happening.
@@ -20,17 +21,21 @@ Do the names of the member functions correlate to what they do? That is, are the
 
 1. Does a list allow for random access? Meaning can I access any element(e.g. myList[7])?
 Yes you can access any element of the list by using the index element as the parameter to the array or we can get a random element using random.choice() method which outputs a random element.
-*Edit your response here*
+
+
 
 4. Observe that all the container data structures (i.e. list, set, dictionary, etc.) can work with any data type (integers, floats, custom data types, etc.). 
 What do you think are the pros/cons of a library that can work with any data type?
 
+
 The pros of a library is that libraries are more flexible and extensinle and they are highly embeddable. But the main con are that when the new code is updated, the whole library has to be compiled again into new executable code.
+
 
 ## requests
 
 1. Take a look at the requests API documentation here: https://requests.readthedocs.io/en/latest/  
 Comment if the functions are well named in the Requests module (Follow the previous link to the documentation to see if you can find the Requests module (hint: look for API Reference)).
+
 
 yes the functions are well named in the Requests module like head() and get().
 
@@ -46,3 +51,4 @@ some of the other methods that take more arguments are prepare() ,send() and HTT
 Notice how some methods have arguments that are set to `None` while other arguments are not set to anything. Why is that? Can arguments be set to anything besides `None`? Why might it be good to set an argument by some predetermined value?
 
 Because these arguments are optional, you can also set an argument to anytihng besides Node depends on the value.
+
