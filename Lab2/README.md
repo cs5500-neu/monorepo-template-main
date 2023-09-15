@@ -36,7 +36,7 @@ Provided below are a list of curated resources to help you complete the tasks be
 
 # Task 1 - More Git (Reading + 1 action item)
 
-Please complete the reading and action item in [task1.md](./task1.md)
+Please complete the reading and update the `.gitignore` file in this repo. See Deliverables, Task 1
 
 # Task 2 - Basic Python APIs (Reading + 1 action item)
 
