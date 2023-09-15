@@ -19,21 +19,21 @@ class Shape(ABC):
 
 class Rectangle(Shape):
     def __init__(self, x, y):
-        self.width = x
-        self.height = y
+        self._width = x
+        self._height = y
 
     def get_width(self):
-        return self.width
+        return self._width
     
     def get_height(self):
-        return self.height
+        return self._height
     
     def set_values(self, x, y):
-        self.width = x
-        self.height = y
+        self._width = x
+        self._height = y
 
     def area(self):
-        return self.width * self.height
+        return self._width * self._height
 
 
 if __name__ == "__main__":
