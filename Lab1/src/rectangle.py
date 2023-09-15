@@ -8,7 +8,10 @@ from abc import ABC, abstractmethod
 """
 class Shape: 
     @abstractmethod
-    def 
+    def set_values(self, x, y):
+        pass
+    def area(self):
+        pass
 
 class Rectangle:
     def __init__(self, width, height):
