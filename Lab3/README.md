@@ -58,7 +58,7 @@ Refactor the logger provided in [./src/singleton.py](./src/singleton.py) with th
 - Task 1
 	- Make sure you answered your questions in [exercises.md](./exercises.md).
 - Task 2
-	- We are going to review your refactored [./src/singleton.cpp](./src/singleton.py) to see an implementation of a logger.
+	- We are going to review your refactored [./src/singleton.py](./src/singleton.py) to see an implementation of a logger.
 	- Then look to make sure you answered your questions in [exercises.md](./exercises.md).
 
 ### Submission
