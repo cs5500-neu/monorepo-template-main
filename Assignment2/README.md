@@ -1,6 +1,6 @@
 # TODO Please edit the following information in your assignment
 
--   Name:
+-   Name: Yu-Yang, Lee
 -   How many hours did it take you to complete this assignment? 10hr
 -   Did you collaborate with any other students/TAs/Professors? No
 -   Did you use any external resources? (Cite them below)
