@@ -5,7 +5,7 @@
 __pycache__
 .pytest_cache
 .class
-.egg-info
+.egg-info*
 .pyc
 build/
 dist/
