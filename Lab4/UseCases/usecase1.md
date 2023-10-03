@@ -6,17 +6,18 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: *Initialize Canvas Dimensions*
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: *System*
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: *Set up a drawable canvas of specific dimensions when the application starts.*
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: *The application is starting up*
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: *Application launch*
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: *1.The system initializes a window. *
+              *2.The system sets the drawable canvas dimensions to 600 pixels wide and 400 pixels high.*
  
 **Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
 
