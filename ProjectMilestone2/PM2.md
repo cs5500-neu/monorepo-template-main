@@ -37,12 +37,12 @@ Your team needs to create the following:
 
 * 3-4 public-facing ReST API's 
   * Should use one or all HTTP Methods: Create, Read, Update, Delete
+  * If you're already ahead, feel free to implement all your public-facing ReST API's
 * Database to support persistence. You can use any type of database. For simplicity and portability, we recommend Sqlite3.
 * Web Server Gateway Interface (WSGI) to serve up your ReST API's to the public (The demo example uses Uvicorn, but you can whatever is best for your team)
 
 NOTE: You do NOT need to create the frontend. The deliverable only requires the backend to be created.
 
-
-
+NOTE2: This phase is ongoing. Development will continue for Project Mileston 3, which is the front-end. So if you need to make changes to the backend that is OK and expected.   
 
 **On Canvas, submit the GitHub link to your backend repo (i.e. opp-api). Only one team member should submit it on behalf of the team.**  
