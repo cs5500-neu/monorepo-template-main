@@ -30,10 +30,10 @@ Your team needs to create the following:
     * URL: https://c3jkkrjnzlvl5lxof74vldwug40pxsqo.lambda-url.us-west-2.on.aws
     * Example: `curl https://c3jkkrjnzlvl5lxof74vldwug40pxsqo.lambda-url.us-west-2.on.aws -d '{"card_number": "4147202464191053"}' -H 'content-type: application/json'`
     * Response: `{"success": "true", "msg": "card number is valid."}`
-  * Process card API: process_card(card_number, amt) => { 'success': <bool>, 'msg': <str> }
+  * Check funds and fraud API: check_funds_and_fraud(card_number, amt) => { 'success': <bool>, 'msg': <str> }
       * URL: https://223didiouo3hh4krxhm4n4gv7y0pfzxk.lambda-url.us-west-2.on.aws
     * Example: `curl https://223didiouo3hh4krxhm4n4gv7y0pfzxk.lambda-url.us-west-2.on.aws -d '{"card_number": "4147202464191053", "amt": 100.00}' -H 'content-type: application/json'`
-    * Response: `{"success": "true", "msg": "card number successfully processed"}`
+    * Response: `{"success": "true", "msg": "card number has sufficient funds and is not fradulent"}`
 * Write tests for your ReST API's
 * Write unit tests for any helper modules or classes
  
