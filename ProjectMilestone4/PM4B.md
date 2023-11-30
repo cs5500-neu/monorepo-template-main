@@ -37,6 +37,9 @@ Create and configure a Security Group for your EC2.
   * https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
   * https://www.gnu.org/software/make/
 
+* Creating a Workflow in GitHub 
+  * https://docs.github.com/en/actions/quickstart
+
 * [Semantic Versioning](https://semver.org/)
 
 # Deliverables
@@ -49,5 +52,12 @@ Create and configure a Security Group for your EC2.
   * From your master branch, create a release branch named `release-v1.0`
 * From your release branch, create a tag named 'v1.0'
 * Create Release Notes for 'v1.0'
+* Add [`pylint`](https://pylint.readthedocs.io/en/latest/tutorial.html) to your project
+  * Run `pylint` on your Python code and fix all issues identified by Pylint 
+  * If needed, add a [pylint config file](https://pylint.readthedocs.io/en/latest/user_guide/configuration/index.html) so you can also configure Pylint to ignore false positives or rules that you don't agree with but don't go crazy
+* Create a CI pipeline that will run your tests and pylint on every push to any branch (e.g. master and working branches) 
+  * To do this on Github, create a Workflow that will run your tests and pylint on your branch on every push to 
+  
+
 
 **On Canvas, submit the GitHub link to your backend repo (i.e. opp-api). If your has chosen to build a separate UI, also include the link to `opp-ui`. Only one team member should submit it on behalf of the team.**  
